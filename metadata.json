@@ -1,0 +1,29 @@
+{
+    "tables": {
+        "posts_table": {
+            "columns": {
+                "User": {
+                    "sdtype": "numerical"
+                },
+                "Post Type": {
+                    "sdtype": "categorical"
+                },
+                "Post Date": {
+                    "sdtype": "numerical"
+                }
+            }
+        },
+        "friends_table": {
+            "columns": {
+                "Friend 1": {
+                    "sdtype": "numerical"
+                },
+                "Friend 2": {
+                    "sdtype": "numerical"
+                }
+            }
+        }
+    },
+    "relationships": [],
+    "METADATA_SPEC_VERSION": "V1"
+}
